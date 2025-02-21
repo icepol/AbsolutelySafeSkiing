@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9786fd4dfd77496bb3981e5e8239b849, type: 3}
+  m_Name: 01_StraightRight
+  m_EditorClassIdentifier: 
+  pathSegmentPrefab: {fileID: 4227782336724400583, guid: 353bb42220a82408cb5a64fbb6806052, type: 3}
+  minDistanceToEnable: 25

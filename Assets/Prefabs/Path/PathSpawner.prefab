@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5383095575784523774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2069079923792627073}
+  - component: {fileID: 220847319989935644}
+  m_Layer: 0
+  m_Name: PathSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2069079923792627073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383095575784523774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &220847319989935644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5383095575784523774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49d4f6157ea164e0492ac71ff1f16f17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathSegmentPrefabs:
+  - {fileID: 3079925974859227225, guid: 66305d6263aa1487d97b820f77579f49, type: 3}
+  - {fileID: 8632029693701157288, guid: cde5c24f09cfb4623a64351bb05b6124, type: 3}
+  - {fileID: 8699290904664203961, guid: bcb1884c195644f11a2e5b56f00b2192, type: 3}
+  - {fileID: 2529481071253990202, guid: 0d1168794f6c44530bbaf000fe1e2b2e, type: 3}
+  - {fileID: 1154718659263466548, guid: 8d46e67b2e8214c94910a5d08f046149, type: 3}
+  - {fileID: 7541525024878821860, guid: a2432170473d14570bd4e1dc8aa59b19, type: 3}
+  - {fileID: 8770893094195104343, guid: 57c1422ed57444d4fbdd580f1d561b63, type: 3}
+  - {fileID: 4227782336724400583, guid: 353bb42220a82408cb5a64fbb6806052, type: 3}
+  - {fileID: 8881472672866041799, guid: 5e2b3188a860b4abbb2e61740eca2e61, type: 3}
+  spawnDistance: 5
+  spawnCount: 5
+  removeDistance: 20

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &673059888212579804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8268392231117696801}
+  - component: {fileID: 1673790591032152034}
+  m_Layer: 0
+  m_Name: SoundsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8268392231117696801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673059888212579804}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673790591032152034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673059888212579804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc3a18c13ecb24af9b0973a3ec04fbca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTransform: {fileID: 0}
+  playerHitMantinelSound: {fileID: 8300000, guid: 97c1faabbf92c4c98bd6fe8b670e2d3d, type: 3}
+  ballHitMantinelSound: {fileID: 8300000, guid: 97c1faabbf92c4c98bd6fe8b670e2d3d, type: 3}
+  playerHitPlayerSlowSound: {fileID: 8300000, guid: d6d0b6cfd473243d69e73cea7bae4c25, type: 3}
+  playerHitPlayerFastSound: {fileID: 8300000, guid: d820e4ee4a4a64bda9f48eb113b26678, type: 3}
+  playerHitBallSound: {fileID: 8300000, guid: 20cc7edb6d0c34a9280d2a02e26c309c, type: 3}
+  powerUpSounds: {fileID: 8300000, guid: 5bfa88a88becc4aeb99a5431f5cb92af, type: 3}
+  playerDiedSound: {fileID: 8300000, guid: 242a947458001403e847d7c1f4ee2d19, type: 3}
