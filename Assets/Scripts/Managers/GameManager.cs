@@ -24,12 +24,14 @@ namespace pixelook
         {
             EventManager.AddListener(Events.GAME_STARTED, OnGameStarted);
             EventManager.AddListener(Events.GAME_OVER, OnGameOver);
+            EventManager.AddListener(Events.RESTART_GAME, OnRestartGame);
         }
 
         private void OnDisable()
         {
             EventManager.RemoveListener(Events.GAME_STARTED, OnGameStarted);
             EventManager.RemoveListener(Events.GAME_OVER, OnGameOver);
+            EventManager.RemoveListener(Events.RESTART_GAME, OnRestartGame);
         }
 
         private void Update()
@@ -53,18 +55,10 @@ namespace pixelook
         {
             GameState.IsGameRunning = false;
             GameState.IsGameOver = true;
-
-            StartCoroutine(WaitAndRestart());
         }
 
-        IEnumerator WaitAndRestart()
-        {
-            yield return new WaitForSeconds(restartLevelDelay);
 
-            Restart();
-        }
-
-        public void Restart()
+        private void OnRestartGame()
         {
             SceneManager.LoadScene("Game");
         }

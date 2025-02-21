@@ -3,6 +3,7 @@
     public static class Events
     {
         // level progression events
+        public const string RESTART_GAME = "RestartGame";
         public const string PRE_GAME_STARTED = "PreGameStarted";
         public const string GAME_STARTED = "GameStarted";
         public const string POST_GAME_STARTED = "PostGameStarted";

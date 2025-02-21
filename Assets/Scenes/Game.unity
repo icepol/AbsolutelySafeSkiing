@@ -1102,6 +1102,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 410034505239201047, guid: 46370c7f075814ce5b4a80461e852efe, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4468396933225870984, guid: 46370c7f075814ce5b4a80461e852efe, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -1238,14 +1242,6 @@ PrefabInstance:
     - target: {fileID: 3365213661608549748, guid: d1f50a834dd64477a8f2ccab46b6f9bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3801729037083764295, guid: d1f50a834dd64477a8f2ccab46b6f9bc, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3801729037083764295, guid: d1f50a834dd64477a8f2ccab46b6f9bc, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 6004036359919132674, guid: d1f50a834dd64477a8f2ccab46b6f9bc, type: 3}
       propertyPath: m_Name
