@@ -56,8 +56,7 @@ namespace pixelook
             GameState.IsGameRunning = false;
             GameState.IsGameOver = true;
         }
-
-
+        
         private void OnRestartGame()
         {
             SceneManager.LoadScene("Game");

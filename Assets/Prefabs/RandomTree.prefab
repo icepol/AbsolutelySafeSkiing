@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7108559409443830758, guid: 9ce86d0f9f188436ea722004b4de02e6, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108559409443830758, guid: 9ce86d0f9f188436ea722004b4de02e6, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8039208159061922776, guid: 9ce86d0f9f188436ea722004b4de02e6, type: 3}
       propertyPath: m_Enabled
       value: 0

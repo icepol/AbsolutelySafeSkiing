@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7366446545209551883, guid: 5b34143a6f7d440c3931ae38d915de33, type: 3}
       propertyPath: m_Name
-      value: Snowman Variant
+      value: Snowman
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -103,6 +103,6 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.02, y: 0}
-  m_Size: {x: 0.5, y: 1.7}
+  m_Offset: {x: -0.02, y: -0.4}
+  m_Size: {x: 0.5, y: 1}
   m_Direction: 0
